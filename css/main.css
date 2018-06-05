@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* Theme Name: Myresume
+	Theme Auther: Yasir Albardawil
+primary color: #2980b9
+Second color:
+
+background color: #ecf0f1
+*/
+
+
+body {
+	background-color: #FFF;
+	font-family: consolas , 'Open Sans', serif;
+}
+
+::selection {
+	background-color: rgba(0,177,106,0.40)
+}
+
+
+/* Start Header */
+.header {
+	background-image: url(../images/digital.jpg);
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+
+.header .slider {
+	padding-top: 200px;
+}
+
+.header .slider .intro {
+	margin: 0 auto;
+	color: #FFF;
+	border-top: 3px solid #FFF;
+	border-bottom: 4px solid #FFF;
+	width: 600px
+}
+
+.header .slider .intro h2 {
+	font-weight: 600;
+	font-size: 50px;
+}
+
+.header .slider  .btn-light {
+	color: #FFF;
+	font-weight: bold;
+	background-color: transparent;
+	margin-top: 30px
+}
+/* End Header */
+
+/* Start Navbar */
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 995599;
+}
+.navbar .navbar-brand {
+	font-weight: 600
+}
+
+.navbar .navbar.bg-color {
+	background-color: #22313F
+}
+
+.navbar .navbar-brand {
+	font-size: 1.6rem;
+}
+
+
+.navbar-brand span.text-primary {
+	color: #30B576!important
+}
+
+.navbar .nav-item {
+	line-height: 2;
+}
+
+
+.navbar-collapse .nav-item .active {
+	color: #30B576!important
+}
+
+.navbar-collapse .nav-item .nav-link:hover {
+	color: #30B576!important
+}
+
+.navbar.navbar-dark {
+	background-color: #252E30;
+}
+
+/* End Navbar */
+
+/* Start Objectives */
+.objectives {
+	padding-top: 40px;
+	overflow: hidden
+}
+
+/* End Objectives */
+
+/* Start About Me */
+.about-me {
+	 background-color: #F2F2F2;
+	margin: 40px 0
+}
+
+.about-me img {
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767px) { 
+	 .about-me img {
+		 width: 70%
+	 }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) { 
+	.about-me img {
+		 width: 70%
+	}
+}
+
+.about-me h3 {
+	 padding: 0px 0 10px 0;
+}
+
+.about-me .icon {
+	font-size: 20px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.about-me .icon .fa {
+	color: #30B576;
+	margin-top: -20
+}
+
+
+.about-me h2 {
+	margin-top: 40px
+}
+
+
+.about-me .text {
+	padding: 0px 0 40px 0;
+}
+
+
+/* End About Me */
+
+/* Start My Skills */
+.my-skills  {
+	margin: 40px 0;
+}
+
+.my-skills h2 {
+	font-size: 2rem;
+	font-weight: 600
+}
+
+
+.my-skills p {
+	line-height: 1.7;
+}
+
+.my-skills .btn-success {
+	color: #30B576;
+	background-color: transparent;
+	border: 3px solid #30B576; 
+}
+
+.my-skills .btn-success:hover {
+	color: #FFF;
+	background-color: #30B576;
+	border-color: #30B576
+}
+
+/* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767px) { 
+	 .my-skills .btn-success {
+		 margin-bottom: 40px
+	 }
+}
+
+.my-skills h3 {
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+.my-skills  .progress {
+	margin-bottom: 20px;
+	border-radius: 0
+}
+
+.my-skills .progress .progress-bar {
+	background-color: #30B576;
+	padding: 15px;
+	line-height: 0;
+}
+
+.my-skills .progress:last-of-type {
+	margin-bottom: 40px
+}
+
+/* End My Skills */
+
+/* Start My Resume */
+.resume {
+	background-color: #F2F2F2;
+	padding-top: 40px
+}
+
+.resume p {
+	line-height: 1.7;
+	margin-bottom: 20px
+}
+
+.resume .btn-success {
+	color: #30B576;
+	background-color: transparent;
+	margin-bottom: 40px;
+	border: 3px solid #30B576;
+}
+
+.resume .btn-success:hover {
+	color: #FFF;
+	background-color: #30B576;
+	border-color: #30B576
+}
+
+
+.btn-success:focus {
+  box-shadow: 0 0 0 3px rgba(48, 181, 118, 0.5);
+}
+
+.btn-success.disabled, .btn-success:disabled {
+  background-color: #30B576;
+  border-color: #30B576;
+}
+/* End My Resume */
+
+/* Start My Education */
+.my-education {
+	margin: 40px 0;
+}
+
+.my-education h2 {
+	margin-bottom: 30px;
+	font-size: 2rem;
+	font-weight: 600
+}
+.my-education p {
+	color: #999
+}
+
+.my-education .badge-success {
+	border-radius: 0;
+	background-color: #30B576;
+    color: #FFF;
+    padding: 4px 10px;
+	position: relative;
+	top: -20px
+
+}
+
+.my-education hr {
+	background-color: #999;
+	position: relative;
+	top: -10px
+}
+
+/* End My Education */
+
+/* Start testimonials */
+.testimonials {
+	background-color: #F2F2F2;
+}
+
+.testimonials q {
+	line-height: 1.8;
+	font-size: 18px;
+	color: #888;
+	padding-top: 40px;
+	margin-bottom: 20px
+}
+.testimonials h3 {
+	color: #555;
+	margin-bottom: 30px
+}
+
+.testimonials ul {
+	margin-top: 20px;
+	position: relative;
+	left: -20px
+}
+
+.testimonials ul li {
+	width: 20px;
+    height: 20px;
+    border: 2px solid #30B576;
+    display: inline-block;
+	text-align: center;
+    cursor: pointer;
+}
+
+.testimonials ul:last-child {
+    padding-bottom: 40px
+}
+.testimonials ul li:hover {
+    background-color: #30B576;
+}
+
+.testimonials .active {
+	background-color: #30B576;
+}
+
+/*  End testimonials */
+
+/* Start portofolio */
+
+.portofolio {
+	margin: 40px 0
+}
+.portofolio h2 {
+	color: #555;
+	text-align: center
+}
+
+.portofolio p {
+	margin-bottom: 20px
+}
+.portofolio img {
+	margin-bottom: 30px
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+
+.portofolio .img-thumbnail {
+	border-radius: 0
+}
+
+
+/* End portofolio */
+
+/* Start Contatct me */
+.contact-me {
+	padding: 40px 0;
+	background-color: #252F31
+}
+
+
+.contact-me input[type="text"], .contact-me input[type="email"] {
+	background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+	margin: auto;
+    margin-bottom: 10px;
+	display: block;
+	outline: none
+}
+
+.contact-me  textarea {
+	background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+	margin: auto;
+    margin-bottom: 10px;
+	display: block;
+	height: 300px;
+	 outline: none
+}
+
+.contact-me .btn-primary:hover {
+	background-color: #191E22
+}
+
+.btn-primary:focus, .btn-primary.focus {
+	box-shadow: 0 0 0 3px rgba(25, 30, 34, 0.5)
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #191E22;
+  border-color: #191E22;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #191E22;
+  background-image: none;
+  border-color: #191E22;
+}
+/* End Contatct me */
+
+/* Start Footer */
+.footer {
+	background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.footer ul {
+	list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+}
+
+
+/* End Footer */
+
+/* Start Scroll UP */
+  #scrollUp {
+	  display: none;
+	  position: fixed;
+	  bottom: 20px;
+	  right: 30px;
+	  z-index: 99;
+	  background-color: #191E22;
+	  color: #FFF;
+	  cursor: pointer;
+	  padding: 10px;
+	
+}
+/* End Scroll UP */
+/* My framework */
+.paragraph-color {
+	color: #666;
+	line-height: 1.7;
+	padding: 20px 0 10px 0;
+}
+
+.h2-h3-color {
+	color: #555
+}
+
+.button {
+	font-size: 1.2em;
+	padding: 10px 20px;
+	border-width: 3px;
+	border-radius: 0
+}
+
+.button-green {
+	background: none;
+    color: #30B576;
+    border: 3px solid #30B576;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+	border-radius: 0
+}
+
+.button-primary {
+ 	background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+    outline: none;
+}
